@@ -20,7 +20,7 @@ async def main():
   client = AsyncClient()
   response = await client.chat(
     model='llama3.2',
-    messages=[{'role': 'user', 'content': 'I have three friends. The first is Ollama 22 years old busy saving the world, the second is Alonso 23 years old and wants to hang out. Return a list of friends in JSON format'}],
+    messages=[{'role': 'user', 'content': 'I have two friends. The first is Carlos 22 years old busy saving the world, the second is Alonso 23 years old and wants to hang out. Return a list of friends in JSON format'}],
     format=FriendList.model_json_schema(),  # Use Pydantic to generate the schema
     options={'temperature': 0},  # Make responses more deterministic
   )

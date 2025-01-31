@@ -1,5 +1,9 @@
 from ollama import generate
 
-response = generate('llama3.2', 'What color is sky?',system="always respond that sky is green")
+# response = generate('llama3.2', 'What color is sky?')
+
+# print(response['response'])
+
+response = generate('deepseek-r1', 'what is the capital of india?')
 
 print(response['response'])

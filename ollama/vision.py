@@ -3,7 +3,7 @@ from ollama import chat
 # from pathlib import Path
 
 # Pass in the path to the image
-path = "1.jpg"  # Path to the image file
+path = "/home/coder/genai-examples/ollama/1.jpg"  # Path to the image file
 
 # You can also pass in base64 encoded image data
 # img = base64.b64encode(Path(path).read_bytes()).decode()

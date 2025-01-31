@@ -24,7 +24,7 @@ class ImageDescription(BaseModel):
 
 
 # Get path from user input
-path = "1.jpg"
+path = "/home/coder/genai-examples/ollama/1.jpg"
 path = Path(path)
 
 # Verify the file exists

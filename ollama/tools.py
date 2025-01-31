@@ -29,7 +29,7 @@ weather_tool = {
   },
 }
 
-messages = [{'role': 'user', 'content': 'What is temperature in new delhi?'}]
+messages = [{'role': 'user', 'content': 'What is temperature in new bangalore?'}]
 print('Prompt:', messages[0]['content'])
 
 available_functions = {
